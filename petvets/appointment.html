@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+	<title>Appointments</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="icon" type="image/png" href="images/logo.png">
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+    <script type="text/javascript" src="js/rotate.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.jpg" alt="Pet Vets Logo" width="241" height="136"></a>
+			</div>
+			<div id="header_buttons">
+				<p class="button_header"><a href="appointment.html">Book Appointment</a></p>
+				<p class="button_header"><a href="find.html">Find A Vet</a></p>
+			</div>
+			<div id="nav">
+				<ul class="navleft">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="find.html">Find a Vet </a></li>
+					<li class="current_page"><a href="appointment.html">Book an Appointment</a></li>
+					<li><a href="plans.html">Pet Plans</a></li>
+					<li><a href="advice.html">Pet Advice</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="about_developer.html">About Me</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<ul class="navright">
+					<li><a href="#" target="blank" title="linkedin logo"> <img src="images/linkedin.png" border="0" /></a></li>
+					<li><a href="#" target="blank" title="twitter logo"> <img src="images/twitter.png" border="0" /></a></li>
+					<li><a href="#" target="blank" title="facebook logo"> <img src="images/facebook.png" border="0" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="banner-image">
+			<img src="images/appointment.jpg" width="1200" height="462" alt="Pet Image"/>
+		</div>
+		<div id="text-container">
+			<br><h3 class="container_h3">Book your pet in now with our easy online bookings</h3>
+		</div>
+		<div id="appointment">
+		<form class="appointment_form" action="/" method="post">
+        	<h2>Appointment Booking</h2>
+        	<h4>Use the form below to book an appoitnment for your vet.</h4>
+        	<fieldset class="appointment">
+        		<label>Are you an exsisting customer?<br>
+        			<input type="radio" name="customer" value="yes" required>Yes</input>
+					<input type="radio" name="customer" value="no">No</input><br>
+				</label>
+        		<label>Choose you local Vet Clinic:
+					<select name="clinic" required>
+  						<option value="blackrock" name="clinic">Blackrock</option>
+  						<option value="dolphins_barn" name="clinic">Dolphins Barn</option>
+  						<option value="drumcondra" name="clinic">Drumcondra</option>
+  						<option value="palmerstown" name="clinic">Palmerstown</option>
+					</select>
+				</label>
+                <label>Choose an appointment date:<br>
+                <input style="width:60%;"  type="date">
+                </label>
+				<label id="apointment-time">Choose an appointment time:<label style="color:RED;" id="appointment-error"></label><br>
+					<input id="time1" type="checkbox" name="time" value="08:00">08:00</input>
+					<input id="time2" type="checkbox" name="time" value="09:00">09:00</input>
+					<input type="checkbox" name="time" value="10:00">10:00</input>
+					<input type="checkbox" name="time" value="11:00">11:00</input>
+					<input type="checkbox" name="time" value="12:00">12:00</input>
+					<input type="checkbox" name="time" value="14:00">14:00</input>
+					<input type="checkbox" name="time" value="15:00">15:00</input>
+					<input type="checkbox" name="time" value="16:00">16:00</input>
+					<input type="checkbox" name="time" value="17:00">17:00</input>
+				</label>
+             	<label>Information about your appointment:
+                	<textarea name="infomation" placeholder="Please enter your information" required></textarea>
+            	</label>
+             	<label>Pet Name:
+                	<input placeholder="Please enter your pets name" name="pet_name" type="text">
+             	</label>
+        		<label>Pet Sex:<br>
+					<input type="radio" name="sex" value="male" required>Male</input>
+					<input type="radio" name="sex" value="female">Female</input>
+				</label>
+				<br>
+        		<label>Pets Age:
+					<select name="age">
+  						<option value="0" name="age">0</option>
+  						<option value="1" name="age">1</option>
+  						<option value="2" name="age">2</option>
+  						<option value="3" name="age">3</option>
+  						<option value="4" name="age">4</option>
+  						<option value="5" name="age">5</option>
+  						<option value="6" name="age">6</option>
+  						<option value="7" name="age">7</option>
+  						<option value="8" name="age">8</option>
+  						<option value="9" name="age">9</option>
+  						<option value="10" name="age">10</option>
+  						<option value="11" name="age">11</option>
+  						<option value="12" name="age">12</option>
+  						<option value="13" name="age">13</option>
+  						<option value="14" name="age">14</option>
+  						<option value="15" name="age">15+</option>
+					</select>
+				</label>
+             	<label>First Name:
+                	<input placeholder="Please enter your first name" required name="first_name" type="text">
+             	</label>
+             	<label>Surname:
+                	<input placeholder="Please enter your surname" required name="surname" type="text">
+             	</label>
+             	<label>Email:
+                	<input style="width: 50%;" placeholder="Please enter your email" name="email" type="email" required>
+             	</label>
+             <button name="submit" type="submit" id="contact-submit">Send Request</button>
+             </fieldset>
+		</form>
+		</div>
+		<div id="footer">
+			<div id="footer1">
+				<h3>Pet Plans</h3>
+				<ul>
+					<li><a href="plans.html">Economy Plan</a></li>
+					<li><a href="plans.html">Hospital Plan</a></li>
+					<li><a href="plans.html">Inclusive Plan</a></li>
+				</ul>
+			</div>
+			<div id="footer2">
+				<h3>Pet Advice</h3>
+				<ul>
+					<li><a href="advice.html">Pet Parasites</a></li>
+					<li><a href="advice.html">Pet Microchipping</a></li>
+					<li><a href="advice.html">Pet Passports</a></li>
+					<li><a href="advice.html">Alabama Rot</a></li>
+					<li><a href="advice.html">Canine Babesiosis</a></li>
+					<li><a href="advice.html">Ticks</a></li>
+				</ul>
+			</div>
+			<div id="footer3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="about_developer.html">About Me</a></li>
+					<li><a href="shop.html">Shop</a></li>
+				</ul>
+			</div>
+			<div id="footer4">
+				<h3>Stay Connected</h3>
+				<ul>
+					<li><a href="#" target="blank" title="linkedin logo"> <img src="images/linkedin.png" border="0" /></a></li>
+					<li><a href="#" target="blank" title="twitter logo"> <img src="images/twitter.png" border="0" /></a></li>
+					<li><a href="#" target="blank" title="facebook logo"> <img src="images/facebook.png" border="0" /></a></li>
+				</ul>
+			</div>
+			<p>&copy; All rights reserved. Design by Matthew Peck.</p>
+		</div>
+	</div>
+</body>
+</html>
