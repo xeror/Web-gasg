@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+	<title>PetVets</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="icon" type="image/png" href="images/logo.png">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+    <script type="text/javascript" src="js/rotate.js"></script>
+    <script>
+       jQuery(document).ready(function ($) {
+            
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Opacity:2}
+            ];
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+            
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+             //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.jpg" alt="Pet Vets Logo" width="241" height="136"></a>
+			</div>
+			<div id="header_buttons">
+				<p class="button_header"><a href="appointment.html">Book Appointment</a></p>
+				<p class="button_header"><a href="find.html">Find A Vet</a></p>
+			</div>
+			<div id="nav">
+				<ul class="navleft">
+					<li class="current_page"><a href="index.html">Home</a></li>
+					<li><a href="find.html">Find a Vet </a></li>
+					<li><a href="appointment.html">Book an Appointment</a></li>
+					<li><a href="plans.html">Pet Plans</a></li>
+					<li><a href="advice.html">Pet Advice</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="about_developer.html">About Me</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<ul class="navright">
+					<li><a href="#" target="blank" title="linkedin logo"> <img src="images/linkedin.png" border="0" /></a></li>
+					<li><a href="#" target="blank" title="twitter logo"> <img src="images/twitter.png" border="0" /></a></li>
+					<li><a href="#" target="blank" title="facebook logo"> <img src="images/facebook.png" border="0" /></a></li>
+				</ul>
+			</div>
+		</div>
+		 <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1200px; height: 462px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1200px; height: 462px; overflow: hidden;">
+            <div data-p="207.75" style="display: none;">
+            	<a href="advice.html">
+                <img data-u="image" src="images/advice.jpg" />
+            </div>
+            <div data-p="207.75" style="display: none;">
+            	<a href="shop.html">
+                <img data-u="image" src="images/eating.jpg" />
+            </div>
+            <div data-p="207.75" style="display: none;">
+                <a href="plans.html">
+                    <img data-u="image" src="images/plans.jpg" />
+                </a>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;" data-autocenter="1">
+            <div data-u="prototype" style="width:12px;height:12px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora03l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora03r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+    </div>
+		<div id="text-container">
+			<h3 class="container_h3">Save on vet bills with our affordable Pet Plans to suit all pets</h3>
+			<h4 class="container_h4">find out more <a href="plans.html">here </a><h4>
+		</div>
+		<div id="box-wrapper">
+			<div class="box">
+				<a href="advice.html"><img src="images/microchipping.jpg" width="378" height="125" alt="Microchipping Advice"/></a>
+				<h2>Microchipping</h2>
+				<p>It is now illegal not have your dog microchiped. See advice on micro chipping.</p>
+				<p class="button"><a href="advice.html">Read More</a></p>
+			</div>
+			<div class="box">
+				<a href="shop.html"><img src="images/pet_food.jpg" width="378" height="125" alt="Pet Food"/></a>
+				<h2>Pet Food</h2>
+				<p>See our range of nutrisures foods, to keep your pet fit and healthy.</p>
+				<p class="button"><a href="shop.html">Read More</a></p>
+			</div>
+			<div class="box">
+				<a href="plans.html"><img src="images/pet_plans.jpg" width="378" height="125" alt="Pet Plans"/></a>
+				<h2>Pet Plans</h2>
+				<p>See our range of pet plans to suit all pets and prices.</p>
+				<p class="button"><a href="plans.html">Read More</a></p>
+			</div>
+		</div>
+		<div id="text-container2">
+			<h3 class="container_h3">Feed you pet dog with our nutritious range of dog food.</h3>
+			<h4 class="container_h4">find out more <a href="shop.html">here </a><h4>
+		</div>
+		<div id="box-wrapper">
+			<div class="box">
+				<a href="advice.html"><img src="images/pet_advice.jpg" width="378" height="125" alt="Pet Advice"/></a>
+				<h2>Pet Advice</h2>
+				<p>Need advice about your pet, see our expert information page for all you need.</p>
+				<p class="button"><a href="advice.html">Read More</a></p>
+			</div>
+			<div class="box">
+				<a href="about.html"><img src="images/about_us.jpg" width="378" height="125" alt="About Us"/></a>
+				<h2>About US</h2>
+				<p>Find about Pet Vets and meet some of our vets.</p>
+				<p></p>
+				<p class="button"><a href="about.html">Read More</a></p>
+			</div>
+			<div class="box">
+				<a href="contact.html"><img src="images/contact_us.jpg" width="378" height="125" alt="Contact Us"/></a>
+				<h2>Contact US</h2>
+				<p>Need to get in touch find our contact details.</p>
+				<p></p>
+				<p class="button"><a href="contact.html">Read More</a></p>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="footer1">
+				<h3>Pet Plans</h3>
+				<ul>
+					<li><a href="plans.html">Economy Plan</a></li>
+					<li><a href="plans.html">Hospital Plan</a></li>
+					<li><a href="plans.html">Inclusive Plan</a></li>
+				</ul>
+			</div>
+			<div id="footer2">
+				<h3>Pet Advice</h3>
+				<ul>
+					<li><a href="advice.html">Pet Parasites</a></li>
+					<li><a href="advice.html">Pet Microchipping</a></li>
+					<li><a href="advice.html">Pet Passports</a></li>
+					<li><a href="advice.html">Alabama Rot</a></li>
+					<li><a href="advice.html">Canine Babesiosis</a></li>
+					<li><a href="advice.html">Ticks</a></li>
+				</ul>
+			</div>
+			<div id="footer3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="about_developer.html">About Me</a></li>
+					<li><a href="shop.html">Shop</a></li>
+				</ul>
+			</div>
+			<div id="footer4">
+				<h3>Stay Connected</h3>
+				<ul>
+					<li><a href="#" target="blank" title="linkedin logo"> <img src="images/linkedin.png" border="0" /></a></li>
+					<li><a href="#" target="blank" title="twitter logo"> <img src="images/twitter.png" border="0" /></a></li>
+					<li><a href="#" target="blank" title="facebook logo"> <img src="images/facebook.png" border="0" /></a></li>
+				</ul>
+			</div>
+			<p>&copy; All rights reserved. Design by Matthew Peck.</p>
+		</div>
+	</div>
+</body>
+</html>

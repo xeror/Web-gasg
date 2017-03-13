@@ -1,0 +1,1058 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: "vagabond", serif;
+	font-size: 16px;
+	color: black;
+}
+
+h1, h2, h3, h4{
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 150%;
+	color: white;
+}
+
+a {
+	color: #04408a;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #333333;
+}
+
+#container {
+	margin:0 auto;
+	width: 100%;
+	background-color: white;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Header */
+
+#header {
+	width: 100%;
+	background-color: white;
+}
+
+.button_header a {
+	padding: 10px 20px 10px 20px;
+	background: #04408a;
+	border-radius: 5px;
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+#header_buttons {
+	float: right;
+	margin-top: 20px;
+}
+
+
+/* Logo */
+
+#logo {
+	margin: 0;
+	padding: 0px;
+	background-color: white;
+	float: left;		
+}
+
+/* Menu */
+
+.navright {
+	float: right;
+	
+}
+
+.navright li{
+	float: right;
+}
+
+.navleft {
+	float: left;
+	clear: both;
+}
+
+
+.navleft li {
+	border-right: 1px solid #111111;
+
+}
+
+#nav ul {
+	list-style: none;
+	background-color: #f90684;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav {
+	width: 100%;
+	background-color: #f90684;
+	overflow: hidden;
+}
+
+#nav li {
+	display: inline-block;
+	float:left;
+}
+
+#nav a {
+	display: block;
+	height: 35px;
+	color: white;
+	padding: 15px 15px 5px 15px;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.navleft a:hover, #menu .current_page a {
+	text-decoration: none;
+	color: #FFFFFF;
+	background: #04408a;
+}
+
+.navleft a:hover, #menu .current_page a {
+	text-decoration: none;
+	color: #FFFFFF;
+	background: #04408a;
+}
+
+
+/*Text box */
+
+#text-container {
+	width: 100%;
+	height: 100px;
+	background-color: #04408a;
+	padding: 0px;
+	margin: 0px;
+}
+
+#text-container a{
+	color:#f90684;
+}
+
+#text-container2 {
+	width: 100%;
+	height: 100px;
+	background-color: #f90684;
+}
+
+
+.container_h3 {
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+
+.container_h4 {
+	text-align: center;
+	padding-top: 5px;
+	
+}
+
+
+/* Three boxes */
+
+#box-wrapper {
+	overflow: hidden;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+.box {
+	width: 31.5%;
+	height: 280px;
+	border: 1px solid grey;
+	border-width: 1px;
+	float: left;
+	margin: 0.83%;
+	text-align:center;
+}
+
+#box-wrapper .button {
+	float: left;
+	padding-left: 1.5%;
+	padding-bottom: 10px;
+}
+
+#box-wrapper .button a {
+	width: 88px;
+	padding: 10px 20px 10px 20px;
+	margin-right: 10px;
+	background-color: #f90684;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+#box-wrapper p {
+	font-size: 1em;
+	color: grey;
+}
+
+#box-wrapper h2 {
+	padding: 5px 0px 5px 0px;
+	font-size: 1.5em;
+	text-align: center;
+	color: #04408a;
+
+}
+#box-wrapper p.common{
+	height:50px;
+}
+#box-wrapper p {
+	padding-bottom: 5px;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+}
+
+.button a {
+	width: 88px;
+	padding: 10px 20px 10px 20px;
+	margin-right: 10px;
+	background-color: #f90684;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Page Content */
+
+#banner-image{
+	width:100%;
+}
+
+#content {
+	width: 100%;
+	height: auto;
+	padding: 0px 0px 15px 0px;
+	background: white;
+}
+
+#content h2, h3 {
+	padding-left: 2.5%;
+	padding-top: 20px;
+	padding-right: 1.6%;
+	padding-bottom: 10px;
+	color: #f90684;
+}
+
+#content p {
+	padding-left: 2.5%;
+	padding-right: 1.6%;
+	padding-top: 30px;
+	color: grey;
+}
+
+#content img {
+	padding-right: 1.25%;
+
+}
+
+#content_text {
+	float: left;
+	width: 66.66666666666666%;
+}
+
+#content_text h3 {
+	padding-left: 0.83%;
+	padding-top: 25px;
+}
+
+#content_text p {
+	padding-left: 0.83%;
+	color: grey;
+}
+
+
+/* Footer */
+
+#footer {
+	background-image: url('images/footer.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 280px;
+	margin: auto;
+	padding: 20px 0px 0px 0px;
+	float: right;
+}
+
+#footer h3 {
+	color: #bbbbbb;
+	padding-bottom: 5px;
+	padding-left: 3.16%;
+}
+
+#footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #04408a;
+}
+
+#footer ul {
+	list-style: none;
+	padding-left: 1.6%;
+}
+
+#footer li {
+	padding-left: 1.6%;
+}
+
+#footer1 {
+	float: left;
+	width: 16.666666666666666%;
+	margin-right: 0.83%;
+	margin-left: 3.16%;
+}
+
+#footer2 {
+	float: left;
+	margin-right: 0.83%;
+	width: 16.666666666666666%;
+}
+
+#footer3 {
+	float: left;
+	margin-right: 0.83%;
+	width: 16.666666666666666%;
+}
+
+#footer4 {
+	float: left;
+	margin-right: 0.83%;
+	width: 25%;
+}
+
+#footer4 li{
+	display: inline-block;
+}
+
+#footer p {
+	float: left;
+	text-align: center;
+	margin: 0;
+	padding-right: 28%;
+	padding-top: 80px;
+	letter-spacing: 1px;
+	line-height: normal;
+	color: #ffffff;
+}
+
+/*Contact us*/
+
+#side_bar {
+	margin-top: 30px;
+	margin-right: 2.5%;
+	width: 20.833333333333334%;
+	height: 595px;
+	float: left;
+	background-color: #04408a;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+#side_bar ul{
+	list-style: none;
+	padding-top: 40px;
+}
+
+#side_bar li{
+	color: red;	
+	padding-top: 10px;
+}
+
+#side_bar a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+#box_header {
+	width: 100%;
+	height: 40px;
+	float: left;
+	background-color: #f90684;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#side_bar .box_header {
+	float: left;
+	padding: 9px 2% 5px 4%;
+}
+
+#box_header img{
+	float: right;
+	padding: 7px 4% 5px 2%;
+}
+
+
+#side_bar p{
+	color: white;
+	padding: 8%;
+}
+
+
+#contact_form {
+	width: 50%;
+	height: auto;
+	margin: 0px auto;
+	float:left;
+	color: black;
+	padding-left: 0%;
+	font-size: 1em;
+}
+
+#contact_form p{
+	color: grey;
+	
+}
+
+#contact_form h2{
+	margin-top:25px;
+	color: #04408a;
+	text-align: left;
+}
+
+#contact_form h4{
+	color: #04408a;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	font-size: 1em;
+}
+
+.text_input{
+	color: grey;
+	margin-right: 4.16%;
+
+}
+ 
+#contact_form span{
+	float: left;
+	color: grey;
+
+}
+
+#check-box{
+	padding: 0.83%;
+
+}
+
+#contact_form button[type="submit"]{
+	width: 130px;
+	padding: 10px 20px 10px 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	background-color: #f90684;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	font-family: "vagabond", serif;
+	font-size: 1em;
+	border: 0px;
+	cursor:pointer
+}
+
+
+#contact_form input[type="text"]{
+	width:100%;
+	margin-top:10px;
+	height: 15px;
+	margin-bottom: 25px;
+	padding:10px;
+	border:1px solid #f90684;
+}
+
+#contact_form input[type="email"] {
+    width: 100%;
+    margin-top: 10px;
+    height: 15px;
+    margin-bottom: 25px;
+    padding: 1.6%;
+    border: 1px solid #f90684;
+}
+
+
+#contact_form input[type="text2"]{
+	width:100%;
+	margin-top:10px;
+	height: 100px;
+	margin-bottom: 25px;
+	padding:1.6%;
+	border:1px solid #f90684;
+}
+
+#google_map iframe{
+	width: 100%;
+	height: 100%
+	position:relative;
+
+}
+
+
+
+/*Find Us page*/
+
+#clinics {
+	float: left;
+	width: 40%;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	overflow: hidden;
+}
+ 
+#clinics p {
+	color: grey;
+	padding-left: 0%;
+}
+
+#clinics h3{
+	color: #04408a;
+	padding-left: 0%;
+	
+}
+
+#clinics h4 {
+	color: #04408a;
+	padding-top: 10px;
+	padding-bottom: 5px;
+
+}
+
+#clinics img{
+	float: left;
+	padding: 0px 6.25% 10px 0%;
+	
+}
+
+#maps{
+	float: right;
+	width: 33.33333333333333%;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+#clinics1 {
+	float: left;
+	width: 33.33333333333333%;
+	padding-bottom: 10px;
+	
+}
+
+#clinics1 .button {
+	padding-top: 10px;	
+}
+
+#clinics2 .button {
+	padding-top: 10px;	
+}
+
+#clinics1 img{
+	float: left;
+	padding: 0px 6.25% 10px 2.083%;
+	
+}
+
+#clinics1 h4 {
+	color: #04408a;
+	padding-top: 10px;
+	padding-left: 2.083%;
+	padding-bottom: 5px;
+
+}
+
+#clinics1 p{
+	color: grey;
+	padding-left: 2.083%;
+}
+
+#clinics2 {
+	float: left;
+	width: 33.33333333333333%;
+	padding-bottom: 10px;
+	
+}
+
+#clinics2 img{
+	float: left;
+	padding: 0px 6.25% 10px 6.25%;
+	
+}
+
+#clinics2 h4 {
+	color: #04408a;
+	padding-top: 10px;
+	padding-left: 6.25%;
+	padding-bottom: 5px;
+
+}
+
+#clinics2 p{
+	color: grey;
+	padding-left: 6.25%;
+}
+
+/*Appointment*/
+
+.appointment_form {
+	margin-bottom: 20px;
+	width: 55%;
+	padding-left: 5%;	
+
+}
+
+.appointment{
+	color: grey;
+	cursor: pointer;
+	border: 1px solid #04408a;
+	padding: 5%;
+}
+
+.appointment input[type="checkbox"]{
+  display: inline-block;
+ 
+}
+
+.appointment input[type="radio"]{
+  display: inline-block;
+ 
+}
+
+.appointment input[type="text"]{
+  width: 50%;
+ 
+}
+
+.appointment input, select, textarea, option {
+  border: 1px solid #f90684;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 3% 3px 1%;
+  width:3.333333333333333%;
+}
+
+.appointment select {
+  height: 34px;
+  width: 20%;
+}
+
+.appointment textarea {
+  height: 100px;
+  width: 66.66666666666666%;
+}
+
+#appointment button {
+	width: 145px;
+	padding: 10px 20px 10px 20px;
+	margin-right: 10px;
+	background-color: #f90684;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	font-family: "vagabond", serif;
+	font-size: 1em;
+	border: 0px;
+	cursor:pointer
+}
+
+.appointment_form h2{
+  color: #04408a;
+  padding-top: 30px;
+}
+
+.appointment_form h4{
+  color: #04408a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/*media breakpoints*/
+
+@media screen and (min-width:960px){ /*widscreen break point larger than 960px*/
+	#container {
+		max-width: 1200px;
+		margin:o auto;
+	}
+}
+
+
+@media screen and (max-width:1199px){ /*tablet break points smaller than 1199px*/
+
+	.navright{
+		display: none; 
+	}
+
+	#nav li a{
+		font-size: 0.3em;
+		padding: 10px;
+	}
+
+	#text-container {
+	 	width: 100%;
+	}
+
+	.container_h3 {
+	 	font-size:1.4em;
+	 	padding-bottom: 5px;
+	}
+
+	.container_h4 {
+	 	font-size:1.4em;
+	 	padding-bottom: 5px;
+	}
+
+	#footer {
+	 	height: auto;
+	}
+
+	#footer p {
+	 	text-align: center;
+	 	padding: 5px;
+		width: 100%;
+	}
+
+	#footer1 {
+		width: 20%;
+	}
+
+	#footer2 {
+		width: 20%;
+	}
+
+	#footer3 {
+		width: 30%;
+		margin-right: 0px;
+	}
+
+	#footer4 {
+		width: 20%;
+	}
+
+	.box { 
+		width: 48%;	
+		padding-bottom: 15px;
+	}
+
+	#box-wrapper {
+		display: inline;
+	}
+
+	.box p{ 
+		padding: 5px;
+	}
+
+	#text-container2 {
+	display: none;
+	}
+
+	#side_bar {
+		width:30%;
+	
+	}
+}
+
+@media screen and (max-width:635px){ /*mobile break points smaller than 635px*/
+	
+	#container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#logo {
+	 	position:relative;
+    	left:20%;
+	}
+
+	#header_buttons {
+	 	display: none;
+	}
+
+	.navright{
+		display: none;
+	}
+
+	#nav li {
+		width: 100%;
+		font-size: 2em;
+		border-bottom: solid 1px grey;
+		text-align: center;
+	}
+
+	#text-container {
+	 	width: 100%;
+	}
+
+	.container_h3 {
+	 	font-size:1em;
+	 	padding-bottom: 5px;
+	}
+
+	.container_h4 {
+	 	font-size:1em;
+	 	padding-bottom: 5px;
+	}
+
+	#footer {
+	 	height: auto;
+	 	width: 100%;
+	}
+
+	#footer h3 {
+	 	font-size: 1em;
+	}
+
+	#footer a {
+	 	font-size: 0.8em;
+	 	padding:1px;
+	}
+
+	#footer p {
+	 	text-align: center;
+	 	padding: 5px;
+	 	font-size: 0.5em;
+	 	position:relative;
+    	
+	}
+
+	#footer1 {
+		width: 30%;
+	}
+
+	#footer2 {
+		width: 30%;
+	}
+
+	#footer3 {
+		width: 30%;
+		margin-right: 0px;
+	}
+
+	#footer4 {
+		width: 30%;
+
+	}
+
+	#banner-image {
+		display: none;
+	}
+
+	#side_bar {
+		width: 100%;
+		height: auto;
+	}
+
+	#side_bar li {
+		width: 100%;
+		font-size: 1em;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	#content_text {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+	#clinics button {
+		display: none;
+		
+	}
+
+	#clinics1 {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	#clinics1 img {
+		width: 100%;
+	}
+
+	#clinics1 h3 {
+		text-align: center;
+	}
+
+	#clinics2 {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}
+
+	#clinics2 img {
+		width: 100%;
+	}
+
+	#appointment {
+		width: 100%;
+	}
+
+	#appointment h2  {
+		text-align: center;
+	}
+
+	.appointment_form {
+		width: 100%;
+	}
+
+	#contact_form {
+		width: 100%;
+	}
+
+	.box { 
+		width: 100%;	
+		padding-bottom: 20px;
+	}
+
+	.box img{ 
+		width: 100%;	
+	}
+
+	#box-wrapper {
+		display: inline;
+	}
+
+	#box-wrapper .button {
+    	position:relative;
+    	left:32%;
+    	padding-bottom: 10px;
+	}
+
+	.box p{ 
+		padding: 1px;
+	}
+
+	#text-container2 {
+	display: none;
+	}
+
+	#side_bar {
+		width:10%;
+	
+	}
+
+	#maps {
+		display: none;
+	
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1280px){
+	#nav li a{
+		font-size: 0.85em;
+		padding: 10px;
+	}
+	
+}
+
+
+
+
+
+
+
+ /* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 03 css */
+        /*
+        .jssora03l                  (normal)
+        .jssora03r                  (normal)
+        .jssora03l:hover            (normal mouseover)
+        .jssora03r:hover            (normal mouseover)
+        .jssora03l.jssora03ldn      (mousedown)
+        .jssora03r.jssora03rdn      (mousedown)
+        */
+        .jssora03l, .jssora03r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('images/a03.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora03l { background-position: -3px -33px; }
+        .jssora03r { background-position: -63px -33px; }
+        .jssora03l:hover { background-position: -123px -33px; }
+        .jssora03r:hover { background-position: -183px -33px; }
+        .jssora03l.jssora03ldn { background-position: -243px -33px; }
+        .jssora03r.jssora03rdn { background-position: -303px -33px; }
+
+
+        
